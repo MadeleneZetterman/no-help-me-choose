@@ -9,21 +9,23 @@
      <h1>Where do I want to go on summer vacation?</h1>
      <div class="inputSection">
        <div class="inputs">
-         <input placeholder="Option 1">
-         <input placeholder="Option 2">
-         <input placeholder="Option 3">
+         <input placeholder="I want to go to">
        </div>
        <button class="addOption">Add</button>
      </div>
-     <button>Go!</button>
-     <img src="C:/Users/maze/Desktop/code/no-help-me-choose/no-help-me-choose/image/cow-scotland.jpg"
-     alt="Long haired cow in Scotland also called Highland cattle"
-     title="Highland cattle also called cow">
-     <img src="C:/Users/maze/Desktop/code/no-help-me-choose/no-help-me-choose/image/Strömstad stad.jpg"
-     alt="Two lighthouse by the sea also called nice view"
-     title="Sea view also called nice view">
-     <img src="C:/Users/maze/Desktop/code/no-help-me-choose/no-help-me-choose/image/house.jpg"
-     alt="Red house in Sweden also called home"
-     title="House also called home">
+     <div class="resultSection"></div>
+     <button class="goOption">Go!</button>
+
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+     <script>
+      $(function() {
+        $('.resultsSection').hide()
+
+        var add_option = function() {
+          $('.inputs').append('<input></input>')
+        }
+        $('.addOption').click(add_option)
+      })
+     </script>
    </body>
  </html>
