@@ -6,7 +6,7 @@ body {
   margin-top: 150px;
   background-image: url(C:/Users/maze/Desktop/code/no-help-me-choose/no-help-me-choose/image/cow-scotland.jpg);
   background-repeat: no-repeat;
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 
 h1 {
@@ -41,6 +41,6 @@ input {
   margin-bottom: 10px;
 }
 
-.goOption {
+.addOption {
 font-size: 15px;
 }
